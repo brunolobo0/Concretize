@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concretize</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/theme/theme.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo-concretize.png" alt="Concretize" width="184" height="43" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2">
+              <a class="text-light nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="text-light nav-link" href="./src/solicitacao-servico.html">Solicite seu serviço</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="text-light nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Eletricista</a></li>
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Encanador</a></li>
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Gesseiro</a></li>
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Marceneiro</a></li>
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Pedreiro</a></li>
+                <li><a class="dropdown-item" href="./src/solicitacao-servico.html">Pintor</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <button class="text-light btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Meu painel
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item disabled" href="#">Meu perfil</a></li>
+                <li><a class="dropdown-item" href="./src/servicos-solicitados.html">Serviços solicitados</a></li>
+                <li><a class="dropdown-item" href="./src/painel-profissional.html">Painel profissional</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="home-introducao">
+    <div class="home-introducao-bg">
+      <div class="home-introducao-conteudo">
+        <div class="container">
+          <div class="row">
+            <div class="text-light col-lg-7">
+              <h1 class="fw-bold display-4">Conecte-se aos melhores profissionais da construção civil</h1>
+              <p class="fs-5">A plataforma Concretize facilita sua busca por serviços de qualidade de uma forma prática e eficiente.</p>
+            </div>
+          </div>
+          <div class="input-group mb-3 home-introducao-search">
+            <select class="form-select form-select-lg">
+              <option selected>Escolha um serviço</option>
+              <option value="1">Eletricista</option>
+              <option value="2">Encanador</option>
+              <option value="3">Gesseiro</option>
+              <option value="4">Marceneiro</option>
+              <option value="5">Pedreiro</option>
+              <option value="6">Pintor</option>
+
+            </select>
+            <a class="btn btn-outline-primary" type="button" id="button-addon2" href="./src/solicitacao-servico.html"><span class="material-symbols-outlined" style="line-height: 1.5 !important;">
+                search
+              </span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="home-principais-categorias">
+    <div class="container">
+      <h1 class="text-dark fw-bold display-4">Principais categorias</h1>
+      <div class="row gy-4 text-secondary">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/img/home/pedreiro.jpg" class="card-img-top" alt="Pedreiro">
+            <div class="card-body p-4">
+              <h5 class="card-title">Pedreiro</h5>
+              <p class="card-text">Serviços de pedreiro de qualidade que renovam e constroem sonhos.</p>
+              <a href="./src/solicitacao-servico.html" class="btn btn-primary">Fazer orçamento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/img/home/eletricista.jpg" class="card-img-top" alt="Eletricista">
+            <div class="card-body p-4">
+              <h5 class="card-title">Eletricista</h5>
+              <p class="card-text">Soluções elétricas confiáveis para iluminar seu lar com segurança.</p>
+              <a href="./src/solicitacao-servico.html" class="btn btn-primary">Fazer orçamento</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/img/home/pintor.jpg" class="card-img-top" alt="Pintor">
+            <div class="card-body p-4">
+              <h5 class="card-title">Pintor</h5>
+              <p class="card-text">Transforme seus espaços em arte com nossos talentosos pintores.</p>
+              <a href="./src/solicitacao-servico.html" class="btn btn-primary">Fazer orçamento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="home-sobre">
+    <div class="home-sobre-bg bg-dark">
+      <div class="container">
+        <div class="text-light row align-items-center gx-5">
+          <div class="col-lg-7 d-none d-lg-block home-sobre-img">
+            <img src="./assets/img/home/home-sobre.jpg" class="col-12" alt="Edifício em construção" />
+          </div>
+          <div class="col-lg-5 home-sobre-conteudo">
+            <h1 class="fw-bold display-4">Sobre nós</h1>
+            <p class="fs-5">Nossa plataforma atua como um intermediário entre o cliente e os profissionais, proporcionando facilidade na contratação de serviços e tornando todo o processo mais eficiente e transparente. Nosso objetivo é ajudar o cliente a encontrar profissionais qualificados de forma mais fácil. Ao mesmo tempo, proporcionamos aos profissionais acesso a uma base ampla de clientes em potencial. Com isso, buscamos criar uma experiência satisfatória para todos os envolvidos, promovendo a qualidade e a excelência nos serviços prestados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-depoimentos">
+    <div class="container">
+      <h1 class="fw-bold display-4 text-dark">Depoimentos</h1>
+      <div class="row gy-4 text-secondary">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body p-4">
+              <i class="fa fa-quote-left bg-primary text-light" aria-hidden="true"></i>
+              <p class="card-text">Encontrar profissionais qualificados para a minha obra era um desafio até eu descobrir essa plataforma. Foi incrível como pude ter acesso a uma lista de profissionais competentes.</p>
+              <div class="d-flex align-items-center">
+                <div class="home-depoimentos-img"><img src="./assets/img/home/home-depoimentos-1.jpg" alt="Mulher" /></div>
+                <h5 class="card-title">Márcia Santos</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body p-4">
+              <i class="fa fa-quote-left bg-primary text-light" aria-hidden="true"></i>
+              <p class="card-text">Desde que me cadastrei nesta plataforma, percebi um aumento significativo no número de clientes em potencial. A exposição que obtive aqui foi muito maior do que qualquer outra.</p>
+              <div class="d-flex align-items-center">
+                <div class="home-depoimentos-img"><img src="./assets/img/home/home-depoimentos-1.jpg" alt="Mulher" /></div>
+                <h5 class="card-title">Sheila Silva</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body p-4">
+              <i class="fa fa-quote-left bg-primary text-light" aria-hidden="true"></i>
+              <p class="card-text">A contratação de serviços sempre me gerou preocupação, mas essa plataforma trouxe uma nova perspectiva para mim. Encontrei um profissional qualificado em poucos cliques.</p>
+              <div class="d-flex align-items-center">
+                <div class="home-depoimentos-img"><img src="./assets/img/home/home-depoimentos-1.jpg" alt="Mulher" /></div>
+                <h5 class="card-title">Alana Marques</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container py-4">
+      <div class="text-light row gap-4">
+        <div class="col-md">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/logo-concretize.png" alt="Concretize" width="184" height="43" class="d-inline-block align-text-top">
+          </a>
+        </div>
+        <div class="col-md">
+          <h4>Contato</h4>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="#">contato@concretize.com</a></li>
+            <li class="nav-item d-flex gap-3">
+              <a class="fs-4 text-light nav-link active" aria-current="page" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="fs-4 text-light nav-link active" aria-current="page" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a class="fs-4 text-light nav-link active" aria-current="page" href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+          <h4>Categorias</h4>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Eletricista</a></li>
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Encanador</a></li>
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Gesseiro</a></li>
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Marceneiro</a></li>
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Pedreiro</a></li>
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Pintor</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h4>Acesso Fácil</h4>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="text-light nav-link active" aria-current="page" href="./src/solicitacao-servico.html">Solicitação de Serviço</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+</body>
+
+</html>

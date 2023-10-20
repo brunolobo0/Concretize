@@ -1,0 +1,46 @@
+.home-introducao {
+  padding-bottom: 100px;
+}
+
+.home-introducao-bg {
+  position: relative;
+}
+
+.home-introducao-bg::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/img/home/foto-home.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.home-introducao-conteudo {
+  position: relative;
+  padding: 100px 0px 100px 0px;
+}
+
+.home-introducao-search {
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .home-introducao {
+    padding-bottom: 60px;
+  }
+
+  .home-introducao-conteudo {
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-introducao-bg::before {
+    background-image: url("../../../assets/img/home/foto-home-mob.jpg");
+  }
+}

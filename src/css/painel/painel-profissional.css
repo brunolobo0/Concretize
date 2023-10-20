@@ -1,0 +1,44 @@
+.painel-profissional {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.painel-profissional h1 {
+  padding-bottom: 60px;
+}
+
+.painel-profissional h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#col1 {
+  background-color: #DEE2E6;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+#col2 {
+  background-color: #DEE2E6;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .painel-profissional {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .painel-profissional h1 {
+    padding-bottom: 30px;
+  }
+  #col2 {
+    margin-left: 0px;
+  }
+}

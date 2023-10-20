@@ -1,0 +1,25 @@
+
+.form-solicitacao-servicos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .form-solicitacao-servicos h1 {
+    padding-bottom: 30px;
+  }
+  
+  .form-solicitacao-servicos img {
+    min-height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .form-solicitacao-servicos {
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
+  
+    .form-solicitacao-servicos img {
+      display: none;
+    }
+  }

@@ -1,0 +1,22 @@
+.orcamentos {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.orcamentos h1 {
+  padding-bottom: 60px;
+}
+.orcamentos-img img {
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  .orcamentos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .orcamentos h1 {
+    padding-bottom: 30px;
+  }
+}

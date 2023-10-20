@@ -1,0 +1,17 @@
+{
+  "name": "concretize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-min": "node-sass --watch src/css/theme/theme.scss src/css/theme/theme.min.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1"
+  }
+}

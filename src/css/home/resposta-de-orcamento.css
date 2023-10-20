@@ -1,0 +1,37 @@
+.data-inicio {
+  text-align: center;
+  border-color: #ced4da;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+}
+
+#data-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prazo {
+  text-align: center;
+  border-color: #ced4da;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  border-style: solid;
+}
+
+.solicitacao-cliente {
+  display: flex;
+}
+
+#solicit-sec {
+  border-style: solid;
+  border-color: #ced4da;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 50px;
+  padding-inline: 5px;
+  padding-bottom: 10px;
+}

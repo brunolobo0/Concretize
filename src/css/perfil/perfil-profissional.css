@@ -1,0 +1,83 @@
+.perfil-profissional-bg {
+  position: relative;
+}
+
+.perfil-profissional-bg::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/img/perfil/bg-perfil.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.perfil-profissional-conteudo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.perfil-profissional-titulo {
+  position: relative;
+  padding: 100px 0px 100px 0px;
+}
+
+.img-perfil-profissional img {
+  border-radius: 10px;
+}
+
+.img-perfil-profissional {
+  padding-bottom: 20px;
+}
+
+.perfil-profissional-conteudo i {
+  color: #d9d9d9;
+}
+
+.perfil-profissional-infos p {
+  margin: 0px;
+}
+
+.perfil-profissional-card {
+  background-color: #dee2e6;
+  border-radius: 10px;
+  padding: 50px 50px 60px 50px;
+}
+
+.perfil-profissional-card-bt {
+  margin-bottom: -26px;
+}
+
+.perfil-profissional-card .card {
+  height: 100%;
+}
+
+.img-portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .perfil-profissional-titulo {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .perfil-profissional-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .perfil-profissional-card {
+    padding: 30px 30px 60px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-portfolio {
+    padding-bottom: 20px;
+  }
+}
